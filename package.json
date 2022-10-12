@@ -12,6 +12,15 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "browser": {
+    "crypto": false,
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "stream": false,
+    "tls": false
+  },
   "dependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0",
@@ -22,9 +31,11 @@
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "4.3.0",
     "@capacitor/haptics": "4.0.1",
+    "@capacitor/ios": "4.3.0",
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/status-bar": "4.0.1",
     "@ionic/angular": "^6.1.9",
+    "aws-amplify": "^4.3.37",
     "ionicons": "^6.0.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",

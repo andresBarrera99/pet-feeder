@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  IDENTITY_POOL_ID:'XXXXXX',
+  REGION:'us-east-1',
+  USER_POOL_ID:'XXXX',
+  USER_POOL_WEB_CLIENT_ID:'XXXX',
+  MQTT_HOST:'wss://XXXXXXX/mqtt',
 };
 
 /*
